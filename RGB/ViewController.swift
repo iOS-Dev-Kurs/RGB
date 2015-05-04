@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         return formatter
     }()
     
+
     var randomTimer: NSTimer?
     
     override func viewDidLoad() {
