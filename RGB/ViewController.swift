@@ -25,6 +25,13 @@ class ViewController: UIViewController {
     
     var randomTimer: NSTimer?
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        self.view.backgroundColor = UIColor.redColor()
+    }
+    
+    
     @IBAction func showColorButtonPressed(sender: UIButton) {
         let red = rgbNumberFormatter.numberFromString(redTextfield.text)?.integerValue
         let green = rgbNumberFormatter.numberFromString(greenTextfield.text)?.integerValue
